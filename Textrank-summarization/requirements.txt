@@ -1,0 +1,4 @@
+gensim==3.8.1
+requests
+fastapi
+uvicorn

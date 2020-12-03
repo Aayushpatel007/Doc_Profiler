@@ -1,0 +1,26 @@
+version: '3.3'
+services:
+    docprofiler:
+        image: aayushpatel007/docprofiler
+        ports: 
+        - "5000:5000"
+    unsupervised-keyphrase-extraction:
+        image: aayushpatel007/sifrank-unsupervised-keyphrases-extraction
+        ports:
+        - "5001:5001"
+        command: "-1"
+    named-entity-recognition:
+        image: aayushpatel007/flair-ner
+        ports: 
+        - "5002:5002"
+    entity-linking:
+        image: aayushpatel007/tagme
+        ports:
+        - "5003:5003"
+    text-summariztion:
+        image: aayushpatel007/text-summarization
+        ports:
+        - "5004:5004"
+    
+    
+  

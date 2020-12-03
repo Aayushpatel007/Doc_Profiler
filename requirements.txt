@@ -1,0 +1,5 @@
+asyncio==3.4.3
+aiohttp==3.6.2
+requests
+uvicorn
+fastapi
