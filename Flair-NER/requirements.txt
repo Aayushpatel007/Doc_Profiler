@@ -1,0 +1,4 @@
+flair
+requests
+fastapi
+uvicorn
